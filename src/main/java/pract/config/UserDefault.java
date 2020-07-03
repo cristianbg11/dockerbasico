@@ -21,10 +21,10 @@ public class UserDefault {
     @Autowired
     public UserDefault(ServiceUser servicioUsuario, ServicioRol servicioRol) {
         User usuario = new User();
-        usuario.setNombres("Jean");
-        usuario.setApellidos("Marte");
-        usuario.setCorreo("jeancmarte21@gmail.com");
-        usuario.setFechaNacimiento(LocalDate.of(1992, 11, 21));
+        usuario.setNombres("Cristian");
+        usuario.setApellidos("Bueno");
+        usuario.setCorreo("cristianbg011@gmail.com");
+        usuario.setFechaNacimiento(LocalDate.of(1997, 01, 11));
         usuario.setRol("Administrador");
         usuario.setNombreUsuario("admin");
         usuario.setContrasena("admin");
